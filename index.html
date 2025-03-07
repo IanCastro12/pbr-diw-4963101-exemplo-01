@@ -6,21 +6,31 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="estilo.css">
     <style>
-        p{
+        p {
             color: blue;
         }
+
         div {
             margin: 1rem;
         }
 
-        #primeira div{
+        #primeira-div {
             color: white;
             background-color: red;
             padding: 1rem;
         }
-        .item{
-            color: #5face3;
-            background: rebeccapurple;
+
+        .container {
+            border: 1px solid #a3a3a3;
+            box-shadow: .3rem .3rem .2rem .01rem #a3a3a3;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            color: #f7f707;
+            background-color: #df07f7;
             padding: 1rem;
             width: 6rem;
             border-radius: .5rem;
@@ -29,20 +39,22 @@
 </head>
 
 <body>
-    <p style="color: red;"></p>
-        Isto é uma parágrafo.
+    <p style="color: red;">
+        Isto é um parágrafo.
     </p>
 
     <div id="primeira-div">
         Isto é uma DIV.
     </div>
 
-    <div class=container
-
-    <div class="item">Isto é uma DIV.</div>
-    <div class="item">Isto é uma DIV.</div>
-    <div class="item">Isto é uma DIV.</div>
+    <div class="container">
+        <div class="item">Isto é uma DIV.</div>
+        <div class="item">Isto é uma DIV.</div>
+        <div class="item">Isto é uma DIV.</div>        
+        <div class="item">Isto é uma DIV.</div>
+        <div class="item">Isto é uma DIV.</div>
+        <div class="item">Isto é uma DIV.</div>        
+    </div>
 </body>
 
-
-< </html>
+</html>
